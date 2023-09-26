@@ -21,6 +21,10 @@ quest = responseJson['data']['quest']
 
 if not quest['active'] and not quest['members'][xapiuser]:
     print("gonna accept quest")
+    questAccept = requests.post(url, headers=headers)
+    questAcceptResponse = response.json()
+    print(questAcceptResponse)
+
 else:
     print("don't need to accept")
     print(quest)
