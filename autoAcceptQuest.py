@@ -2,7 +2,6 @@
 import requests
 
 url = "https://habitica.com/api/v3/groups/party"
-https://habitica.com/api/v3/groups/:groupId/quests/accept
 
 xapiuser = ""
 
