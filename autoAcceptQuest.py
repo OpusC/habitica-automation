@@ -2,6 +2,7 @@
 import requests
 
 url = "https://habitica.com/api/v3/groups/party"
+https://habitica.com/api/v3/groups/:groupId/quests/accept
 
 xapiuser = ""
 
@@ -21,8 +22,8 @@ quest = responseJson['data']['quest']
 
 if not quest['active'] and not quest['members'][xapiuser]:
     print("gonna accept quest")
-    questAccept = requests.post(url, headers=headers)
-    questAcceptResponse = response.json()
+    questAccept = requests.post(url + "/quests/accept" , headers=headers)
+    questAcceptResponse = questAccept.json()
     print(questAcceptResponse)
 
 else:
