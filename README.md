@@ -1,6 +1,6 @@
 # Habitica Quest Auto-Accept Script
 
-This Python script automates the process of accepting quests on Habitica. It checks whether there is an active quest in your party, and if not, it automatically accepts a new quest.
+This Python script automates the process of accepting quests on Habitica. It checks whether there is a quest to accept in your party, and it will automatically accept a new quest.
 
 ## Prerequisites
 
