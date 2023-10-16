@@ -9,7 +9,6 @@ Before using this script, make sure you have the following:
 - Python 3 installed on your system.
 - Your Habitica API credentials, which include:
   - `x-api-user`: Your Habitica user ID.
-  - `x-client`: As described in the "X-Client Header" section in [Guidance for Comrades](https://habitica.fandom.com/wiki/Guidance_for_Comrades#X-Client_Header), the value of that key should be your User ID and the name of your tool (you can use "OpusC-habitica-automation")
   - `x-api-key`: Your Habitica API key.
 
 ## Installation and Setup
@@ -21,12 +20,10 @@ Before using this script, make sure you have the following:
 3. Replace the following placeholders with your Habitica API credentials:
 
    - `xapiuser`: Your `x-api-user` value.
-   - `xclient`: Your `x-client` value.
    - `xapikey`: Your `x-api-key` value.
 
    ```python
    xapiuser = "YOUR_API_USER_ID"
-   xclient = "YOUR_CLIENT_ID"
    xapikey = "YOUR_API_KEY"
    ```
 
