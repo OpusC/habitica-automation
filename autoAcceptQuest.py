@@ -3,9 +3,12 @@ import requests
 
 url = "https://habitica.com/api/v3/groups/party"
 
+# Change these two only
 xapiuser = "YOUR_API_USER_ID"
-xclient =  "YOUR_CLIENT_ID"
 xapikey = "YOUR_API_KEY"
+
+
+xclient = "b1685e52-643e-481d-aa58-bde09c31444f-OpusC-habitica-automation"
 
 headers = {'content-type': 'application/json',
         'x-api-user': xapiuser,
